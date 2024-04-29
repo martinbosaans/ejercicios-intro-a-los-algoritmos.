@@ -3,7 +3,7 @@
  * The ClockDisplay class implements a digital clock display for a
  * European-style 24 hour clock. The clock shows hours and minutes. The 
  * range of the clock is 00:00 (midnight) to 23:59 (one minute before 
- * midnight).
+ * midnight).v
  * 
  * The clock display receives "ticks" (via the timeTick method) every minute
  * and reacts by incrementing the display. This is done in the usual clock
@@ -18,7 +18,7 @@ public class ClockDisplay
     private NumberDisplay minutes;
     private String displayString;    // simulates the actual display
     
-    /**
+    /**z
      * Constructor for ClockDisplay objects. This constructor 
      * creates a new clock set at 00:00.
      */
